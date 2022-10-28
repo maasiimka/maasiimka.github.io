@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background-color: #F5F5F5;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+
+  color: #303030;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 68px;
+  line-height: 1.2;
+
+  color: #111111;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+
+  color: #111111;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+}
