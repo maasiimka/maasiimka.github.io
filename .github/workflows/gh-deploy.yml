@@ -20,7 +20,9 @@ jobs:
         run: |
           npm ci
           npm run build
-          npm run deploy
+          echo "Use only build"
+          # npm run deploy
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
